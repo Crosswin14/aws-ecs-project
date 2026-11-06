@@ -1,0 +1,7 @@
+from node:22.23
+workdir /usr/src/app
+copy ./package*.json ./
+run npm ci 
+copy . .
+Expose 2000
+cmd [ "node", "index.js" ]
