@@ -9,6 +9,7 @@ runs:
   steps:
   - name: Build
     uses: actions/setup-node@v7
-    with: 22
+    with: 
+      node-version: ${{ inputs.node-version }}
   - run : cd app && npm ci
     shell : bash
