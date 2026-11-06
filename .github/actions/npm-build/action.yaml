@@ -10,4 +10,4 @@ runs:
   - name: Build
     uses: actions/setup-node@v7
     with : ${{ inputs.node-version }}
-  - runs : cd app && npm ci
+  - run : cd app && npm ci
