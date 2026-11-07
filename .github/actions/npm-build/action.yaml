@@ -1,4 +1,4 @@
-name : Build javascript Image
+name : Build javascript app
 
 inputs :
   node-version:
