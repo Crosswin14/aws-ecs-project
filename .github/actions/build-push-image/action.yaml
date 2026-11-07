@@ -2,7 +2,9 @@ name : Build and Push Image
 
 inputs :
   docker_username:
+    required : true
   docker_password:
+    required : true
   tags:
     required: true
 
