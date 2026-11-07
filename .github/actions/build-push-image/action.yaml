@@ -21,4 +21,4 @@ runs:
     with: 
       context: ./app
       push : true
-      tags : ${{ inputs.tag }}
+      tags : ${{ inputs.tags }}
